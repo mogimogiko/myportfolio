@@ -1,0 +1,37 @@
+/* 共通スタイル */
+body {
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  color: gray;
+  background-color: bisque;
+}
+
+
+/* PC用スタイル */
+@media screen and (min-width: 768px){
+  /* ヘッダー */
+  header {
+    display: flex;
+    background-color: white;
+    height: 50px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* ヘッダーのロゴ */
+  .header-logo {
+    font-size: 25px;
+    margin: 0;
+  }
+  a:visited {
+    color: gray;
+  }
+}
+
+/* 携帯用style */
+@media screen and (max-width: 767px) {
+  border-style: ;
+}
