@@ -4,7 +4,10 @@ body {
   font-weight: 1000;
   font-style: normal;
   color: gray;
-  background-color: bisque;
+
+  /* 背景画像 */
+  background-image: url(mogiko.jpg);
+  background-size: cover;
 }
 
 
